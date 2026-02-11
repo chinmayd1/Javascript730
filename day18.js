@@ -102,3 +102,4 @@ console.log(e11)
 // findIndex(el,index,arr) --> number
 // some(el,index,arr) --> boolean
 // every(el,index,arr) --> boolean
+// 
