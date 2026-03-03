@@ -70,7 +70,6 @@ console.log("*".repeat(6)+ accNo.slice(-4))
 
 let city4 ="chandrapur"
 //city4.slice(startIndex,endIndex(not included))
-
 console.log(city4.slice(2))
 console.log(city4.slice(1,5))
 console.log(city4.slice(1,-1))
@@ -78,3 +77,26 @@ console.log(city4.slice(-8,5))
 console.log(city4.slice(-5,-1))
 console.log(city4.slice(-1,-5))
 console.log(city4.slice(-3))
+
+
+// function Calculate(x,y){
+//     console.log("hello")
+//     return x + y
+//     console.log("bye")
+// }
+// let q31 = Calculate(12,3)
+// console.log(q31)
+
+function addA(){
+    let x = 10
+    let y = 5
+    return function(){
+        return x + y
+    }
+}
+let f1 = addA()
+
+// let f1 = function(){
+//         return x + y
+//     }
+console.log(f1())
