@@ -71,3 +71,9 @@ let q10 = city7.includes("d")
 let q11 = city7.includes("do")
 console.log(q10)
 console.log(q11)
+
+// 7:30 pm  ---> sql 
+// 8.00 pm  ---> prompt enginnering 
+// 8:30 pm  ---> js
+// 9:10 pm  ---> playwright
+// 10 days - excel - 8.00am
