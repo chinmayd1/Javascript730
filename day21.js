@@ -87,16 +87,67 @@ console.log(city4.slice(-3))
 // let q31 = Calculate(12,3)
 // console.log(q31)
 
-function addA(){
-    let x = 10
-    let y = 5
-    return function(){
-        return x + y
-    }
-}
-let f1 = addA()
-
-// let f1 = function(){
+// function addA(){
+//     let x = 10
+//     let y = 5
+//     return function(){
 //         return x + y
 //     }
-console.log(f1())
+// }
+// let f1 = addA()
+
+// // let f1 = function(){
+// //         return x + y
+// //     }
+// console.log(f1())
+
+
+let str3 = "chinmay"
+let str4 = "deshpande"
+let str5 = str3.concat(" ",str4)
+console.log(str5)
+
+let info2  = ["chinmay","deshpande",7709192441]
+let q14  = info2.join('-')
+console.log(q14)
+// ["chinmay","deshpande","7709192441"]
+let q15 = q14.split("-")
+console.log(q15)
+
+
+let city6 = "chandrapur"
+//["ch","ndr","pur"]
+
+let q17 = city6.split("a")
+console.log(q17)
+
+let city7 = "pune"
+let q16 = city7.at(2)
+console.log(q16)
+let q18 = city7.at(-1)
+console.log(q18)
+
+city7 = "pune"
+let q19 = city7.charAt(1)
+console.log(q19)
+
+let q20 = city7.charCodeAt(2)
+console.log(q20)
+
+let numA = "5"
+// let q21 = numA.padStart(5,0)
+// console.log(q21)
+
+let q21 = numA.padEnd(5,"#")
+console.log(q21)
+
+// 0  1  2  3  4 5
+// b  h  a  r  a  t
+
+let qwerty = "bharat"
+let q22 = qwerty.substring(1,-3)
+console.log(q22)
+
+let newString = "javascript"
+console.log(newString.slice(-6))
+console.log(newString.substring(-6))
