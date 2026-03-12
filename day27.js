@@ -100,7 +100,6 @@ let info4 = {
         father:"shirish",
         mother:"kanchan"
     }
-
 }
 let {fullName,skills:[q111,q222],parent:{mother,father}} = info4
 console.log(fullName)
